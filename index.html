@@ -68,7 +68,7 @@
             display: none; /* 초기에는 숨김 */
             width: 100px; /* 버튼의 너비 */
             height: 43px; /* 버튼의 높이 */
-            background-image: url('G:/Black/선물_Button.png'); /* 선물 이미지 */
+            background-image: url('./선물_Button.png'); /* 선물 이미지 */
             background-size: contain; /* 이미지를 버튼 크기에 맞추기 */
             background-repeat: no-repeat;
             background-position: center;
@@ -82,7 +82,7 @@
         }
 
         #giftButton:hover {
-            background-image: url('G:/Black/선물_Button_2.png'); /* 마우스를 올렸을 때의 버튼 이미지 */
+            background-image: url('./선물_Button_2.png'); /* 마우스를 올렸을 때의 버튼 이미지 */
             cursor: pointer; /* 마우스를 올렸을 때 포인터 형태로 변경 */
         }
 
@@ -91,16 +91,16 @@
 <body>
     <div id="videoContainer">
         <video id="videoPlayer" autoplay muted>
-            <source src="G:/Black/명품상자_Intro.mp4" type="video/mp4">
+            <source src="./명품상자_Intro.mp4" type="video/mp4">
         </video>
         <video id="secondVideo" style="display: none;">
-            <source src="G:/Black/명품상자_Open2.mp4" type="video/mp4">
+            <source src="./명품상자_Open2.mp4" type="video/mp4">
         </video>
     </div>
     <button id="playButton"></button>
     <div id="textTitle">To.지윤</div>
-    <img id="giftImage1" src="G:/Black/Letter.png" alt="Gift Image 1">
-    <img id="giftImage2" src="G:/Black/Present.png" alt="Gift Image 2">
+    <img id="giftImage1" src="./Letter.png" alt="Gift Image 1">
+    <img id="giftImage2" src=".Present.png" alt="Gift Image 2">
     <button id="giftButton"></button>
 
     <script>
